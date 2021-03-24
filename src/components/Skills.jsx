@@ -90,7 +90,7 @@ const Skills = () => {
                 Database
                 </Typography>
                 <Typography variant="body2"  component="p">
-                    JavaS
+                MongoDB - MySQL - Git
                 </Typography>
                 </CardContent>
             </CardActionArea>
