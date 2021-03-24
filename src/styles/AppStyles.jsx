@@ -1,7 +1,7 @@
 const AppStyles =()=>({
 
     app:{
-        background: '#0e0d0d'
+        background: '#2F3131'
         
     },
     toolbar:{
@@ -11,7 +11,12 @@ const AppStyles =()=>({
     toolbar_text:{
         padding: '10px',
         margin: '10px'
+    },
+    logo:{
+        width:'70px',
+        height:'70px'
     }
+
 
 
 

@@ -9,9 +9,9 @@ const Footer = () => {
 
     const classes = useStyles()
     return ( 
-    <div className={classes.footer}>
+    <footer className={classes.footer}>
     <span className={classes.footer_text}>Created By WM  | &#169;{new Date().getFullYear()} | All Rights Reserved</span>
-  </div> 
+  </footer> 
   );
 }
  
