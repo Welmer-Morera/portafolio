@@ -1,8 +1,18 @@
 const AppStyles =()=>({
 
-    app:{
-        background: '#2F3131'
+    appIntial:{
+        backgroundColor: '#FFFFFF',
+        boxShadow: 'none',
+        transition: 'all 0.3s ease',
+        color:'black'
+
         
+    },
+
+    appScroll:{
+        background: '#000000',
+        boxShadow: 'none',
+        transition: 'all 0.3s ease'
     },
     toolbar:{
         display:'flex',
@@ -10,7 +20,8 @@ const AppStyles =()=>({
     },
     toolbar_text:{
         padding: '10px',
-        margin: '10px'
+        margin: '10px',
+       
     },
     logo:{
         width:'70px',

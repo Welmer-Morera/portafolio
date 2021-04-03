@@ -9,8 +9,27 @@ const SkillsStyles = () => ({
         
       },
 
+
+      textTitle:{
+
+        color: '#FDFDFD',
+        textDecoration:'none'
+      },
+
+      
+
+
       cardR:{
-          background:'#31A2AC'
+          background:'#31A2AC',
+          '&:hover': {
+            backgroundColor: '#88DAE1'
+          }
+      },
+      imgReact:{
+        '&:hover': {
+          backgroundColor: '#FFFFF'
+        }
+
       },
       cardL:{
         background:'#AF1C1C'

@@ -49,7 +49,7 @@ class ToolbarMenuIcon extends React.Component {
     return (
       <div className={classes.buttonCollapse}>
         <IconButton onClick={this.handleMenu}>
-          <MenuIcon style={{ color: 'white' }} />
+          <MenuIcon style={{ color:'#A6A6A6' }} />
           {/* //<HomeIcon /> */}
         </IconButton>
         <Menu

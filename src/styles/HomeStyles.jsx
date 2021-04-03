@@ -1,10 +1,36 @@
+import Image  from './img/profile2.png'
 const Homestayles = () => ({
     
-    contenedor:{
+  container:{
         display:'flex',
         justifyContent: 'flexstart',
+       // maxWith:'100%'
        
     },
+    containerText:{
+      display: 'flex',
+      alignItems: 'center',
+      background: '#D9D9D9',
+      borderRadius:'10px'
+
+    },
+    containerTextS:{
+     
+      marginLeft:'10px',
+      
+      borderRadius:'5px',
+     
+    },
+
+    imgContainer: {
+      height: '80vh',
+      width: '100%',
+      backgroundImage: `url(${Image})`,
+      backgroundRepeat: "no-repeat",
+			backgroundPosition: "left ",
+			backgroundSize: "863px  683px",
+			backgroundAttachment: "fixed",
+  },
     textOne:{
         fontSize: '50px',
         color: '#0E2431',
@@ -18,7 +44,7 @@ const Homestayles = () => ({
       textThree:{
         fontSize: '40px',
         margin: '5px 0',
-        color:' #4070f4',
+        color:' #545454',
       },
       textFour:{
         fontSize: '23px',

@@ -9,6 +9,7 @@ import imgMongo from '../styles/img/mongo.png'
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom'
 import Typography from '@material-ui/core/Typography';
 import SkillsStyles from '../styles/SkillsStyles'
 const useStyles = makeStyles(SkillsStyles)
@@ -29,8 +30,15 @@ const Skills = () => {
 
                 </CardMedia>
                 <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                JavaScript
+                <Typography  className={classes.textTitle} gutterBottom variant="h5" component="h2">
+                <Link
+                    key="contact"
+                    className={classes.textTitle}
+                    to="/Protectos-React"
+                  > 
+                     JavaScript
+                  </Link>
+               
                 </Typography>
                 <Typography variant="body2" color="white" component="p">
                 React - Redux - GraphQl - hooK
