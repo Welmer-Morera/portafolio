@@ -47,56 +47,7 @@ const About = () => {
 
     
            
-        //     <div className={classes.container}>
-        //     <Grid container >
-
-        //         <Grid item xs={12} sm={4}>
-        //         <div className={classes.containerText} >
-        //         <div className={classes.textTwo}>About Me</div>
-        //            <p className={classes.textOne}>I am a responsible and
-        //                 creative person with proactive attitude to solve issues. Eager to learn and understand new programs/applications to grow as a profesional in my field.
-        //                 </p>
-        //                 <Button variant="contained" color="primary" href={pdf}>
-                       
-        //                 Click here for my pdf
-        //                     </Button>
-                       
-
-        //         </div>
-
-        //         </Grid>
-        //         <Grid item xs={12} sm={8}>
-        //             <Hidden xsDown>
-        //                 <div className={classes.imgContainer}></div>
-        //             </Hidden>
-        //         </Grid>
-
-
-
-
-
-        //     {/* <Grid item xs={12} sm={4}>
-        //     <div className={classes.textTwo}>About Me</div>
-
-        //     </Grid>
-               
-        //         <Grid item xs={12} sm={4}>
-        //         <div >
-        //            <p className={classes.textOne}>I am a responsible and
-        //                 creative person with proactive attitude to solve issues. Eager to learn and understand new programs/applications to grow as a profesional in my field.
-        //                 </p>
-
-        //         </div>
-        //         </Grid>
-
-        //         <Grid item xs={12} sm={4}>
-                   
-        //                 <img className={classes.img} src={img} alt="ima"></img>
-                    
-        //         </Grid> */}
-
-        //    </Grid>
-        //     </div>
+    
         
     );
 }
